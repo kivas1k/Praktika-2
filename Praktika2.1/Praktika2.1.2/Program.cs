@@ -8,18 +8,18 @@ class Program
         int target1 = 5;
 
         Console.WriteLine("Результат для первого набора данных >> ");
-        var result1 = Combinations(candidates1, target1);
-        PrintCombinations(result1);
+        var result1 = result(candidates1, target1);
+        PrintResult(result1);
 
         int[] candidates2 = { 10, 1, 2, 7, 6, 1, 5 };
         int target2 = 8;
 
         Console.WriteLine("Результат для второго набора данных >>");
-        var result2 = Combinations(candidates2, target2);
-        PrintCombinations(result2);
+        var result2 = result(candidates2, target2);
+        PrintResult(result2);
     }
 
-    static void PrintCombinations(int[][] combinations)
+    static void PrintResult(int[][] combinations)
     {
         foreach (var combination in combinations)
         {
@@ -37,7 +37,7 @@ class Program
         }
     }
 
-    static int[][] Combinations(int[] candidates, int target)
+    static int[][] result(int[] candidates, int target)
     {
         Array.Sort(candidates);
         

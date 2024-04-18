@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gr622_sivvya\\RiderProjects\\Praktika2.2\\Praktika2.2.4\\Praktika2.2.4.csproj",
+      "projectUniqueName": "C:\\Users\\gr622_sivvya\\Desktop\\Praktika 2\\Praktika2.2\\Praktika2.2.4\\Praktika2.2.4.csproj",
       "projectName": "Praktika2.2.4",
-      "projectPath": "C:\\Users\\gr622_sivvya\\RiderProjects\\Praktika2.2\\Praktika2.2.4\\Praktika2.2.4.csproj",
+      "projectPath": "C:\\Users\\gr622_sivvya\\Desktop\\Praktika 2\\Praktika2.2\\Praktika2.2.4\\Praktika2.2.4.csproj",
       "packagesPath": "C:\\Users\\gr622_sivvya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gr622_sivvya\\RiderProjects\\Praktika2.2\\Praktika2.2.4\\obj\\",
+      "outputPath": "C:\\Users\\gr622_sivvya\\Desktop\\Praktika 2\\Praktika2.2\\Praktika2.2.4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

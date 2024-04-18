@@ -15,7 +15,7 @@ class Student
         Grades = grades;
     }
 
-    public void Info(string name, DateTime birthDate, string group)
+    public void InfoStudent(string name, DateTime birthDate, string group)
     {
         Name = name;
         BirthDate = birthDate;
