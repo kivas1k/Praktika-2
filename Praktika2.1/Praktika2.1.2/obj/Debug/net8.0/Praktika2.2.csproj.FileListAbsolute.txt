@@ -1,0 +1,14 @@
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\bin\Debug\net8.0\Praktika2.2.exe
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\bin\Debug\net8.0\Praktika2.2.deps.json
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\bin\Debug\net8.0\Praktika2.2.runtimeconfig.json
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\bin\Debug\net8.0\Praktika2.2.dll
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\bin\Debug\net8.0\Praktika2.2.pdb
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\obj\Debug\net8.0\Praktika2.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\obj\Debug\net8.0\Praktika2.2.AssemblyInfoInputs.cache
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\obj\Debug\net8.0\Praktika2.2.AssemblyInfo.cs
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\obj\Debug\net8.0\Praktika2.2.csproj.CoreCompileInputs.cache
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\obj\Debug\net8.0\Praktika2.2.dll
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\obj\Debug\net8.0\refint\Praktika2.2.dll
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\obj\Debug\net8.0\Praktika2.2.pdb
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\obj\Debug\net8.0\Praktika2.2.genruntimeconfig.cache
+C:\Users\gr622_sivvya\RiderProjects\Praktika2.1\Praktika2.2\obj\Debug\net8.0\ref\Praktika2.2.dll

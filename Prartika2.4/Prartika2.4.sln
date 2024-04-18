@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prartika2.4", "Prartika2.4\Prartika2.4.csproj", "{DF0651C4-006F-4F6F-A1F5-75B4AAB5A184}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF0651C4-006F-4F6F-A1F5-75B4AAB5A184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0651C4-006F-4F6F-A1F5-75B4AAB5A184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0651C4-006F-4F6F-A1F5-75B4AAB5A184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0651C4-006F-4F6F-A1F5-75B4AAB5A184}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

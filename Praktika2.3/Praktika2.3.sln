@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktika2.3.1", "Praktika2.3.1\Praktika2.3.1.csproj", "{AFA603B0-47E7-4176-A5F4-AC461F5B83D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktika2.3.3", "Praktika2.3.3\Praktika2.3.3.csproj", "{338E0F7A-1FC7-45D3-8D3C-4DF06DCB016D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFA603B0-47E7-4176-A5F4-AC461F5B83D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA603B0-47E7-4176-A5F4-AC461F5B83D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA603B0-47E7-4176-A5F4-AC461F5B83D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA603B0-47E7-4176-A5F4-AC461F5B83D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338E0F7A-1FC7-45D3-8D3C-4DF06DCB016D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338E0F7A-1FC7-45D3-8D3C-4DF06DCB016D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338E0F7A-1FC7-45D3-8D3C-4DF06DCB016D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338E0F7A-1FC7-45D3-8D3C-4DF06DCB016D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
