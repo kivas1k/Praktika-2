@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Praktika2.1.3")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("GarageConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d57cc9c07e71ee69dd4ae40b65e16b97a6d2b2cd")]
-[assembly: System.Reflection.AssemblyProductAttribute("Praktika2.1.3")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Praktika2.1.3")]
+[assembly: System.Reflection.AssemblyProductAttribute("GarageConsoleApp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("GarageConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
