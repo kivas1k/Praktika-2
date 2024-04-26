@@ -2,7 +2,7 @@
 
 class Worker
 {
-    private string name;
+    private string name; // личная инфа раба
     private string surname;
     private double rate;
     private int days;
@@ -14,7 +14,7 @@ class Worker
         this.rate = rate;
         this.days = days;
     }
-
+    // Геттеры 
     public string GetName()
     {
         return name;
@@ -35,7 +35,7 @@ class Worker
         return days;
     }
 
-    public void GetSalary()
+    public void GetSalary() // Метод для вычисления и вывода ЗП раба
     {
         double salary = rate * days;
         Console.WriteLine($"Зарплата работника {name} {surname}: {salary}");

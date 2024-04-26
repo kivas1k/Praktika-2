@@ -2,24 +2,24 @@
 
 class Counter
 {
-    public int Count { get; set; }
+    public int Count { get; set; } // личная инфа счетчика
 
     public Counter()
     {
         Count = 0;
     }
 
-    public Counter(int initialValue)
+    public Counter(int initialValue) // Конструктор с начальным значением для Count
     {
         Count = initialValue;
     }
 
-    public void Incerement()
+    public void Incerement() // Метод для увеличения значения счетчика на 1
     {
         Count++;
     }
 
-    public void Decrement()
+    public void Decrement() // Создаем первый объект Counter с начальным значением 0
     {
         Count--;
     }

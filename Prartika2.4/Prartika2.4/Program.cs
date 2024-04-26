@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Converter
 {
-    private Dictionary<char, int> Values = new Dictionary<char, int>()
+    private Dictionary <char, int> Values = new Dictionary<char, int>()
     {
         {'I', 1},
         {'V', 5},
@@ -13,11 +14,11 @@ class Converter
         {'M', 1000}
     };
 
-    public int RomeEl(string s)
+    public int RomeEl(string s) // Метод, который преобразует римское число в десятичное
     {
         int result = 0;
 
-        for (int i = 0; i < s.Length; i++)
+        for (int i = 0; i < s.Length; i++) // Проходим по каждому символу в строке с римским числом
         {
             if (i < s.Length - 1 && Values[s[i]] < Values[s[i + 1]])
             {
@@ -37,7 +38,7 @@ class Program
 {
     static void Main()
     {
-        Converter converter = new Converter();
+        Converter converter = new Converter(); // Тесты
 
         string input1 = "III";
         Console.WriteLine($"№1 Вход >> \"{input1}\", Выход >> {converter.RomeEl(input1)}");

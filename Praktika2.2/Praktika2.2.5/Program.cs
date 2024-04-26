@@ -2,8 +2,8 @@
 
 class Class
 {
-    public int Number1 { get; set; }
-    public string Text { get; set; }
+    public int Number1 { get; set; } // личная инфа целого числа
+    public string Text { get; set; } // личная инфа строкового знач
 
     public Class(int num, string str)
     {
@@ -17,7 +17,7 @@ class Class
         Text = "Текст";
     }
 
-    ~Class()
+    ~Class() // Деструктор, вызывающийся при удалении объекта
     {
         Console.WriteLine("Удаление");
     }

@@ -12,7 +12,7 @@ class Program
 
         int count = Jewelsinstones(J, S);
         
-        Console.WriteLine($"Количество символов из S, являющихся драгоценностями: {count}");
+        Console.WriteLine($"Количество символов из S, являющихся драгоценностями >> {count}");
     }
 
     static int Jewelsinstones (string J, string S)
@@ -23,11 +23,11 @@ class Program
         {
             for (int j = 0; j < J.Length; j++)
             {
-                if (S[i] == J[j])
+                if (S[i] == J[j]) // Если текущий символ из S равен текущему символу из J
                 {
                     count++;
                     
-                    break; 
+                    break; // Стоп машина
                 }
             }
         }

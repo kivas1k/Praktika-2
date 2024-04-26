@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "lDW9QGje8UuOLl082kMCI+D8/fBJUtXopCvYB2QyNTFWsDF6SQVYejACJugWQC1ke3uFosucBuIHCgmXmoeV+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gr622_sivvya\\Desktop\\Praktika 2\\Praktika2.6\\Praktika2.6\\Praktika2.6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gr622_sivvya\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\gr622_sivvya\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\gr622_sivvya\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

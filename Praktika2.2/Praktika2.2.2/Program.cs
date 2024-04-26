@@ -2,7 +2,7 @@
 
 class InfoTrain
 {
-    public string Destination { get; set; }
+    public string Destination { get; set; } // иофнрмация о сапсане
     public int Number { get; set; }
     public DateTime DepartureTime { get; set; }
 
@@ -13,7 +13,7 @@ class InfoTrain
         DepartureTime = departureTime;
     }
 
-    public void DisplayInfo(int trainNumber)
+    public void DisplayInfo(int trainNumber) // Метод для вывода информации о сапсане
     {
         if (trainNumber == Number)
         {

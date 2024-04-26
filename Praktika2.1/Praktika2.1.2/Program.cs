@@ -21,14 +21,14 @@ class Program
 
     static void PrintResult(int[][] combinations)
     {
-        foreach (var combination in combinations)
+        foreach (var combination in combinations) // Проходим по всем комбинациям в результате
         {
             Console.Write("[");
-            for (int i = 0; i < combination.Length; i++)
+            for (int i = 0; i < combination.Length; i++)  // Проходим по всем элементам в текущей комбинации
             {
                 Console.Write(combination[i]);
 
-                if (i < combination.Length - 1)
+                if (i < combination.Length - 1) // Если это не последний элемент, то добавляем разделитель
                 {
                     Console.Write(", ");
                 }
@@ -39,7 +39,7 @@ class Program
 
     static int[][] result(int[] candidates, int target)
     {
-        Array.Sort(candidates);
+        Array.Sort(candidates); // Сортируем входной массив кандидатов
         
         var result = new List<int[]>();
         
@@ -52,7 +52,7 @@ class Program
     {
         if (target == 0)
         {
-            int[] combination = new int[pos];
+            int[] combination = new int[pos];  // Создаем новый массив с длиной == количеству использованных элементов
             
             Array.Copy(current, combination, pos);
             
@@ -60,7 +60,7 @@ class Program
             return;
         }
 
-        for (int i = index; i < candidates.Length; i++)
+        for (int i = index; i < candidates.Length; i++) // Проходим по всем кандидатам, начиная с позиции index
         {
             if (candidates[i] > target)
             {

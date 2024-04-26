@@ -26,17 +26,17 @@ class Program
             }
         }
 
-        int[] count = new int[maxNum + 1];
+        int[] count = new int[maxNum + 1];  // Массив для подсчета количества вхождений каждого числа
 
         foreach (int num in nums)
         {
             count[num]++;
             
-            if (count[num] >= 2)
+            if (count[num] >= 2)  // Если для какого-то числа счетчик >= 2, значит что то попторяется
             {
                 return true;
             }
         }
-        return false;
+        return false; // если цифорка одинока(
     }
 }

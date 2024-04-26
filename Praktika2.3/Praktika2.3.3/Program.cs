@@ -4,28 +4,28 @@ class Calculation
 {
     private string calculationLine;
 
-    public string CalculationLine
+    public string CalculationLine  // Свойство для доступа к полю calculationLine
     {
         get { return calculationLine; }
         set { calculationLine = value; }
     }
     
-    public void SetCalculationLine(string line)
+    public void SetCalculationLine(string line) // Метод для установки строки вычисления
     {
         calculationLine = line;
     }
     
-    public void SetLastSymbolCalculationLine(char symbol)
+    public void SetLastSymbolCalculationLine(char symbol) // Метод для добавления символа в конец строки вычисления
     {
         calculationLine += symbol;
     }
     
-    public string GetCalculationLine()
+    public string GetCalculationLine()  // Метод для получения строки вычисления
     {
         return calculationLine;
     }
     
-    public char GetLastSymbol()
+    public char GetLastSymbol() // Метод для получения ласт символа строки вычисления
     {
         if (string.IsNullOrEmpty(calculationLine))
         {
@@ -35,7 +35,7 @@ class Calculation
         return calculationLine[calculationLine.Length - 1];
     }
     
-    public void DeleteLastSymbol()
+    public void DeleteLastSymbol() // Метод для удаления последнего символа из строки вычисления
     {
         if (!string.IsNullOrEmpty(calculationLine))
         {

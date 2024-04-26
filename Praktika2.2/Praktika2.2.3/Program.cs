@@ -2,27 +2,27 @@
 
 class Numbers
 {
-    public int Num1 { get; set; }
+    public int Num1 { get; set; } // личная инфа чисел
     public int Num2 { get; set; }
 
-    public void Display()
+    public void DisplayInfo() // Метод для вывода значений чисел
     {
         Console.WriteLine($"Number 1 >> {Num1}");
         Console.WriteLine($"Number 2 >> {Num2}");
     }
 
-    public void Update(int num1, int num2)
+    public void Update(int num1, int num2) // Метод для обновления значений
     {
         Num1 = num1;
         Num2 = num2;
     }
 
-    public int Sum()
+    public int Sum() // sum
     {
         return Num1 + Num2;
     }
 
-    public int Max()
+    public int Max() // max
     {
         return Math.Max(Num1, Num2);
     }
@@ -36,7 +36,7 @@ class Program
         
         numbers.Update(10,20);
         
-        numbers.Display();
+        numbers.DisplayInfo();
 
         Console.WriteLine($"Сумма номеров >> {numbers.Sum()}");
 

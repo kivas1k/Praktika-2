@@ -34,20 +34,24 @@ namespace GarageConsoleApp
                     case "1":
                         DatabaseRequests.GetTypeCarQuery(); // Вызов метода для получения списка типов машин из базы данных
                         break;
+                    
                     case "2":
                         Console.Write("Введите название типа машины: ");
                         string typeName = Console.ReadLine();
                         DatabaseRequests.AddTypeCarQuery(typeName); // Вызов метода для добавления нового типа машины в базу данных
                         break;
+                    
                     case "3":
                         DatabaseRequests.GetDriverQuery(); // Вызов метода для получения списка водителей из базы данных
-
                         break;
+                    
                     case "4":
                         Console.Write("Введите имя водителя: ");
                         string firstName = Console.ReadLine();
+                        
                         Console.Write("Введите фамилию водителя: ");
                         string lastName = Console.ReadLine();
+                        
                         Console.Write("Введите дату рождения водителя (гггг-мм-дд): ");
                         if (DateTime.TryParse(Console.ReadLine(), out DateTime birthdate))
                         {
@@ -58,6 +62,7 @@ namespace GarageConsoleApp
                             Console.WriteLine("Неверный формат даты!");
                         }
                         break;
+                    
                     case "5":
                         Console.Write("Введите ID водителя: ");
                         if (int.TryParse(Console.ReadLine(), out int driverId))
@@ -69,11 +74,13 @@ namespace GarageConsoleApp
                             Console.WriteLine("Неверный формат ID водителя!");
                         }
                         break;
+                    
                     case "6":
                         Console.Write("Введите название категории прав: ");
                         string categoryName = Console.ReadLine();
                         DatabaseRequests.AddRightsCategoryQuery(categoryName); // Вызов метода для добавления новой категории прав водителя в базу данных
                         break;
+                    
                     case "7":
                         Console.Write("Введите ID водителя: ");
                         if (int.TryParse(Console.ReadLine(), out int driverIdAssign))
@@ -94,17 +101,21 @@ namespace GarageConsoleApp
                             Console.WriteLine("Неверный формат ID водителя!");
                         }
                         break;
+                    
                     case "8":
                         DatabaseRequests.GetCarQuery(); // Вызов метода для получения списка машин из базы данных
                         break;
+                    
                     case "9":
                         Console.Write("Введите ID типа машины: ");
                         if (int.TryParse(Console.ReadLine(), out int typeId))
                         {
                             Console.Write("Введите название машины: ");
                             string carName = Console.ReadLine();
+                            
                             Console.Write("Введите штатный номер машины: ");
                             string stateNumber = Console.ReadLine();
+                            
                             Console.Write("Введите максимальное количество пассажиров: ");
                             if (int.TryParse(Console.ReadLine(), out int maxPassengers))
                             {
@@ -120,17 +131,21 @@ namespace GarageConsoleApp
                             Console.WriteLine("Неверный формат ID типа машины!");
                         }
                         break;
+                    
                     case "10":
                         DatabaseRequests.GetItineraryQuery(); // Вызов метода для получения списка маршрутов из базы данных
                         break;
+                    
                     case "11":
                         Console.Write("Введите название маршрута: ");
                         string itineraryName = Console.ReadLine();
                         DatabaseRequests.AddItineraryQuery(itineraryName);  // Вызов метода для добавления нового маршрута в базу 
                         break;
+                    
                     case "12":
                         DatabaseRequests.GetRouteQuery(); // Вызов метода для получения списка рейсов из базы данных
                         break;
+                    
                     case "13":
                         Console.Write("Введите ID водителя: ");
                         if (int.TryParse(Console.ReadLine(), out int driverIdTrip))
@@ -167,9 +182,11 @@ namespace GarageConsoleApp
                             Console.WriteLine("Неверный формат ID водителя!");
                         }
                         break;
+                    
                     case "0":
                         exit = true;
                         break;
+                    
                     default:
                         Console.WriteLine("Неверный выбор. Попробуйте снова.");
                         break;

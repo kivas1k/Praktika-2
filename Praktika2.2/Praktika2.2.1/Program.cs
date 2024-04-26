@@ -2,7 +2,7 @@
 
 class Student
 {
-    public string Name { get; set; }
+    public string Name { get; set; } // личные данные студента
     public DateTime BirthDate { get; set; }
     public string Group { get; set; }
     public double[] Grades { get; set; }
@@ -15,14 +15,14 @@ class Student
         Grades = grades;
     }
 
-    public void InfoStudent(string name, DateTime birthDate, string group)
+    public void InfoStudent(string name, DateTime birthDate, string group) // Метод для изменения персональной информации студента
     {
         Name = name;
         BirthDate = birthDate;
         Group = group;
     }
 
-    public void DisplayInfo()
+    public void DisplayInfo()  // Метод для вывода информации о студенте
     {
         Console.WriteLine($"Информация");
         
