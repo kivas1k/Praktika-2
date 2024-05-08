@@ -8,7 +8,7 @@ namespace DailyPlanner
     {
         static void Main(string[] args)
         {
-            string connString = @"Host=10.30.0.137;Port=5432;Database=gr622_sivvya;Username=gr622_sivvya;Password=Fkbcf201424!";
+            string connString = @"Host=10.30.0.137;Port=5432;Database=gr622_sivvya;Username=gr622_sivvya;Password=sosite";
 
             using (var conn = new NpgsqlConnection(connString))
             {
